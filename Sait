@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RG Service – Услуги</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+  </head>
+  <body>
+    <nav class="container-fluid">
+      <ul>
+        <li><strong>RG Service</strong></li>
+      </ul>
+      <ul>
+        <li><a href="#services">Услуги</a></li>
+        <li><a href="#contact">Контакты</a></li>
+        <li><a href="#" role="button">Заказать</a></li>
+      </ul>
+    </nav>
+
+    <main class="container">
+      <div class="grid" id="services">
+        <section>
+          <hgroup>
+            <h2>Наши услуги</h2>
+            <h3>Профессиональные решения для вашего дома и бизнеса</h3>
+          </hgroup>
+          <p>Мы предлагаем установку и обслуживание систем любой сложности: от электрических сетей до умных домов.</p>
+
+          <figure>
+            <img src="https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=800&q=80" alt="Электромонтаж" />
+            <figcaption>Электромонтажные работы</figcaption>
+          </figure>
+          <h3>Электромонтаж</h3>
+          <p>Установка, ремонт и модернизация электросетей любой сложности в квартирах, домах и коммерческих объектах.</p>
+
+          <figure>
+            <img src="https://images.unsplash.com/photo-1617692855027-3b1cd3c075af?auto=format&fit=crop&w=800&q=80" alt="Тепловой насос" />
+            <figcaption>Тепловые насосы</figcaption>
+          </figure>
+          <h3>Тепловые насосы</h3>
+          <p>Поставка, установка и обслуживание энергоэффективных тепловых насосов для отопления и охлаждения.</p>
+
+          <figure>
+            <img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?auto=format&fit=crop&w=800&q=80" alt="Солнечные панели" />
+            <figcaption>Солнечные панели</figcaption>
+          </figure>
+          <h3>Солнечные панели</h3>
+          <p>Проектирование и монтаж солнечных энергетических систем под ключ.</p>
+
+          <figure>
+            <img src="https://images.unsplash.com/photo-1611186871348-b1ce696e52d7?auto=format&fit=crop&w=800&q=80" alt="Умный дом" />
+            <figcaption>Умный дом</figcaption>
+          </figure>
+          <h3>Умный дом</h3>
+          <p>Автоматизация освещения, отопления, видеонаблюдения и других функций для удобства и безопасности.</p>
+
+          <figure>
+            <img src="https://images.unsplash.com/photo-1623152161829-5b5d6f8e5e77?auto=format&fit=crop&w=800&q=80" alt="Видеонаблюдение" />
+            <figcaption>Системы видеонаблюдения</figcaption>
+          </figure>
+          <h3>Видеонаблюдение</h3>
+          <p>Установка камер и систем видеоконтроля для объектов любой категории.</p>
+        </section>
+      </div>
+    </main>
+
+    <section aria-label="Subscribe example" id="contact">
+      <div class="container">
+        <article>
+          <hgroup>
+            <h2>Связаться с нами</h2>
+            <h3>Оставьте заявку, и мы свяжемся с вами</h3>
+          </hgroup>
+          <form class="grid">
+            <input type="text" id="firstname" name="firstname" placeholder="Ваше имя" aria-label="Имя" required />
+            <input type="email" id="email" name="email" placeholder="Ваш Email" aria-label="Email" required />
+            <button type="submit" onclick="event.preventDefault()">Отправить</button>
+          </form>
+        </article>
+      </div>
+    </section>
+
+    <footer class="container">
+      <small><a href="#">Политика конфиденциальности</a> • <a href="#">Условия использования</a></small>
+    </footer>
+  </body>
+</html>
